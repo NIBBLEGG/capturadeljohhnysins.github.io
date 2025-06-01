@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+}
+
+.top-header {
+    background: #fff;
+    border-bottom: 4px solid red;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-header h1 {
+    color: darkred;
+    font-family: 'Georgia', serif;
+}
+
+.fecha {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10px 0;
+    background: #d60000;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+}
+
+.categoria {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 26px;
+    color: #222;
+}
+
+.resumen {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.imagen-noticia {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.creditos {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.texto strong {
+    font-weight: bold;
+}
